@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<include width="800" height="600">
+	<caption cache="1" colorBkgnd="#ffffffff">
+		<caption pos="0,0,80,-0" colorBkgnd="#26292eff" focusable="1" drawfocusrect="0" />
+		<caption pos="0,0,-0,30" focusable="1" drawfocusrect="0">
+			<imgbtn name="btn_close" skin="skin_sysbtn_close_png" pos="-30,0" tip="close" animate="1" />
+			<imgbtn name="btn_max" skin="skin_sysbtn_max_png" pos="-60,0" animate="1" />
+			<imgbtn name="btn_restore" skin="skin_sysbtn_restore_png" pos="-60,0" show="0" animate="1" />
+			<imgbtn name="btn_min" skin="skin_sysbtn_min_png" pos="-90,0" animate="1" />
+		</caption>
+		<caption pos="80,30,-0,-0" />
+	</caption>
+</include>

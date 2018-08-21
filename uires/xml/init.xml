@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UIDEF>
+	<font face="微软雅黑" size="14" />
+	<string>
+		<title value="服务器管理软件" />
+		<ver value="1.0" />
+	</string>
+	<skin>
+		<imgframe name="img_login_border" src="img:IMG_LOGIN_BORDER" left="9" top="9" right="9" bottom="9" />
+		<imglist name="btn_login_setting" src="img:BTN_LOGIN_SETTING" states="3" />
+		<imglist name="btn_login_button" src="img:BTN_LOGIN_BUTTON" states="3" />
+		<imglist name="btn_getpswback" src="img:BTN_GETPSWBACK" states="3" />
+		<imglist name="btn_register" src="img:BTN_REGISTER" states="3" />
+		<imglist name="btn_keyboard" src="img:BTN_KEYBOARD" states="3" />
+		<imglist name="img_avatars" src="img:img_avatars" states="8" />
+		<imglist name="img_login_bg" src="img:IMG_LOGIN_BG" />
+		<imglist name="skin_bkg_mask_png" src="IMG:bkg_mask_png" />
+		<imglist name="skin_sysbtn_close_png" src="IMG:sysbtn_close_png" states="3" />
+		<imglist name="skin_sysbtn_max_png" src="IMG:sysbtn_max_png" states="3" />
+		<imglist name="skin_sysbtn_min_png" src="IMG:sysbtn_min_png" states="3" />
+		<imglist name="skin_sysbtn_restore_png" src="IMG:sysbtn_restore_png" states="3" />
+	</skin>
+	<style>
+		<class name="cls_edit" ncSkin="_skin.sys.border" margin-x="2" margin-y="2" />
+	</style>
+	<objattr />
+</UIDEF>

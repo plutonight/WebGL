@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<SOUI name="mainwindow" bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16" width="800" height="600" wndType="8" toolWindow="1" title="主界面" translucent="1" resizable="1" appWnd="1">
+	<root>
+		<window pos="0,0,-0,-0" skin="img_login_border" cache="1">
+			<tabctrl name="tab_main" pos="5,5,-5,-5" tabHeight="0">
+				<page title="index">
+					<include src="LAYOUT:PAGE_INDEX" />
+				</page>
+			</tabctrl>
+		</window>
+	</root>
+</SOUI>

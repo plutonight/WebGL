@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<resource>
+	<UIDEF>
+		<file name="XML_INIT" path="xml\init.xml" />
+	</UIDEF>
+	<LAYOUT>
+		<file name="XML_MAINWND" path="xml\dlg_main.xml" />
+		<file name="PAGE_LOGIN" path="xml\page_login.xml" />
+		<file name="PAGE_SETTINGS" path="xml\page_settings.xml" />
+		<file name="PAGE_MAIN" path="xml\page_main.xml" />
+		<file name="PAGE_INDEX" path="xml\page_index.xml" />
+	</LAYOUT>
+	<IMG>
+		<file name="IMG_LOGIN_BORDER" path="image\login_border.png" />
+		<file name="BTN_LOGIN_SETTING" path="image\login_setting.png" />
+		<file name="BTN_LOGIN_BUTTON" path="image\login_button.png" />
+		<file name="BTN_KEYBOARD" path="image\keyboard.png" />
+		<file name="IMG_AVATARS" path="image\avatars.png" />
+		<file name="IMG_LOGIN_BG" path="image\login_bg.png" />
+		<file name="bkg_mask_png" path="image\bkg_mask.png" />
+		<file name="sysbtn_close_png" path="image\sysbtn_close.png" />
+		<file name="sysbtn_max_png" path="image\sysbtn_max.png" />
+		<file name="sysbtn_min_png" path="image\sysbtn_min.png" />
+		<file name="sysbtn_restore_png" path="image\sysbtn_restore.png" />
+	</IMG>
+	<ICON>
+		<file name="ICON_LOGO" path="image\soft.ico" />
+	</ICON>
+	<SMENU>
+		<file name="menu_template" path="xml\menu\menu_template.xml" />
+	</SMENU>
+</resource>
