@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <include width="436" height="345">
 	<!--login page-->
-	<caption pos="0,0,-0,-0">
+	<caption pos="0,0,-0,-0" skin="img_login_border">
 		<caption pos="0,0,-0,186" skin="img_login_bg">
 			<!--title bar-->
 			<icon pos="10,6" src="ICON_LOGO:16" />

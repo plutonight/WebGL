@@ -1,0 +1,8 @@
+﻿<menu itemSkin="_skin_menu_skin" font="adding:-2" itemHeight="30" textMargin="8" colorTextSel="#e43d3d">
+    <item id="101">设置</item>
+    <item id="102">关于我们</item>
+    <!--item id="104" disable="1">打开碟片/DVD
+      <item id="1041">打开碟片</item>
+      <item id="1042">打开DVD</item>
+    </item-->
+</menu>

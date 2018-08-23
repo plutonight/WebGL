@@ -1,12 +1,26 @@
-﻿<?xml version="1.0"?>
-<SOUI name="mainwindow" bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16" width="800" height="600" wndType="8" toolWindow="1" title="主界面" translucent="1" resizable="1" appWnd="1">
-	<root>
-		<window pos="0,0,-0,-0" skin="img_login_border" cache="1">
-			<tabctrl name="tab_main" pos="5,5,-5,-5" tabHeight="0">
-				<page title="index">
-					<include src="LAYOUT:PAGE_INDEX" />
-				</page>
-			</tabctrl>
+<?xml version="1.0"?>
+<SOUI name="mainwindow" bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16" width="800" height="600" wndType="8" toolWindow="0" title="主界面" translucent="1" resizable="1" appWnd="1">
+	<root skin="img_login_border">
+		<window pos="5,5,-5,-5">
+			<caption pos="0,0,180,30" focusable="1" drawfocusrect="0" colorBkgnd="#3c444dff" colorText="#ffffffff">
+				<text pos="[10,4">@string/title</text>
+				<text pos="[6,4">版本:</text>
+				<text pos="[0,4">@string/ver</text>
+			</caption>
+			<caption pos="180,0,-0,30" focusable="1" drawfocusrect="0" colorBkgnd="#ffffffff">
+				<imgbtn name="btn_close" skin="skin_sysbtn_close_png" pos="-30,0" tip="close" animate="1" />
+				<imgbtn name="btn_max" skin="skin_sysbtn_max_png" pos="-60,0" animate="1" />
+				<imgbtn name="btn_restore" skin="skin_sysbtn_restore_png" pos="-60,0" show="0" animate="1" />
+				<imgbtn name="btn_min" skin="skin_sysbtn_min_png" pos="-90,0" animate="1" />
+				<imgbtn name="btn_menu" skin="skin_sysbtn_menu_png" pos="-120,0" animate="1" />
+			</caption>
+			<window pos="0,[0,-0,-0" cache="1">
+				<tabctrl name="tab_main" pos="0,0,-0,-0" tabHeight="0" curSel="0">
+					<page title="index">
+						<include src="LAYOUT:PAGE_INDEX" />
+					</page>
+				</tabctrl>
+			</window>
 		</window>
 	</root>
 </SOUI>

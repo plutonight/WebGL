@@ -53,6 +53,9 @@
     <ClCompile Include="WebGL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AboutDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MainDlg.h">
@@ -85,6 +88,9 @@
     <ClInclude Include="GLDialog.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="AboutDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="res\soui_res.rc2">
@@ -111,9 +117,6 @@
   <ItemGroup>
     <Image Include="uires\image\soui.ico">
       <Filter>SoUI Resouece</Filter>
-    </Image>
-    <Image Include="icon1.ico">
-      <Filter>Resource Files</Filter>
     </Image>
     <Image Include="soft.ico">
       <Filter>Resource Files</Filter>

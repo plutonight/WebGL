@@ -1,13 +1,33 @@
 <?xml version="1.0"?>
-<include width="800" height="600">
-	<caption cache="1" colorBkgnd="#ffffffff">
-		<caption pos="0,0,80,-0" colorBkgnd="#26292eff" focusable="1" drawfocusrect="0" />
-		<caption pos="0,0,-0,30" focusable="1" drawfocusrect="0">
-			<imgbtn name="btn_close" skin="skin_sysbtn_close_png" pos="-30,0" tip="close" animate="1" />
-			<imgbtn name="btn_max" skin="skin_sysbtn_max_png" pos="-60,0" animate="1" />
-			<imgbtn name="btn_restore" skin="skin_sysbtn_restore_png" pos="-60,0" show="0" animate="1" />
-			<imgbtn name="btn_min" skin="skin_sysbtn_min_png" pos="-90,0" animate="1" />
-		</caption>
-		<caption pos="80,30,-0,-0" />
-	</caption>
+<include width="800" height="570">
+	<caption cache="1" colorBkgnd="#ffffffff" />
+	<tabctrl pos="0,0,-0,-0" tabAlign="left" tabSkin="skin_tab_left_png" colorText="#d6d7d9ff" focusable="0" show="1" curSel="0" tabInterSize="0" colorBkgnd="#353d44ff" tabWidth="180" icon-x="15" icon-y="0" iconSkin="skin_tab_icon_png" tabHeight="45" animateSteps="10">
+		<page title="首页" tip="提示1">
+			<include src="LAYOUT:PAGE_HOME" />
+		</page>
+		<page title="网站" tip="提示2">
+			<include src="LAYOUT:PAGE_WEB" />
+		</page>
+		<page title="FTP" tip="提示3">
+			<include src="LAYOUT:PAGE_FTP" />
+		</page>
+		<page title="数据库" tip="提示4">
+			<include src="LAYOUT:PAGE_SQL" />
+		</page>
+		<page title="监控" tip="提示5">
+			<include src="LAYOUT:PAGE_CONTROL" />
+		</page>
+		<page title="安全" tip="提示6">
+			<include src="LAYOUT:PAGE_SAFT" />
+		</page>
+		<page title="文件" tip="提示7">
+			<include src="LAYOUT:PAGE_FILE" />
+		</page>
+		<page title="计划任务" tip="提示8">
+			<include src="LAYOUT:PAGE_PLAN" />
+		</page>
+		<page title="终端" tip="提示9">
+			<include src="LAYOUT:PAGE_SHELL" />
+		</page>
+	</tabctrl>
 </include>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<SOUI width="385" height="273" translucent="1">
+	<root cache="1" skin="skin_shadow_about_png" colorBkgnd="#ffffffff">
+		<window pos="20, 20, -20, -20" colorBkgnd="#FFFFFF" layout="vbox" gravity="center">
+			<caption size="-2, 40" layout="hbox" gravity="center">
+				<text size="-1, -2" extend_left="22" colorText="#4A4A4A" font="size:16">关于我们</text>
+				<window weight="1" msgTransparent="1" />
+				<imgbtn skin="skin_system_close_png" extend_right="15" name="btn_close" />
+			</caption>
+			<hr width="-2" height="1" size="1" mode="horizontal" lineStyle="solid" colorLine="#EAEAEA" />
+			<img size="64,64" extend_top="20" skin="skin_soft_png" />
+			<text colorText="#4A4A4A" extend_top="20">@string/title</text>
+			<text colorText="#4A4A4A" extend_top="10">@string/ver</text>
+		</window>
+	</root>
+</SOUI>

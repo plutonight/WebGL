@@ -9,6 +9,16 @@
 		<file name="PAGE_SETTINGS" path="xml\page_settings.xml" />
 		<file name="PAGE_MAIN" path="xml\page_main.xml" />
 		<file name="PAGE_INDEX" path="xml\page_index.xml" />
+		<file name="PAGE_HOME" path="xml\page_home.xml" />
+		<file name="PAGE_WEB" path="xml\page_web.xml" />
+		<file name="PAGE_FTP" path="xml\page_ftp.xml" />
+		<file name="PAGE_SQL" path="xml\page_sql.xml" />
+		<file name="PAGE_CONTROL" path="xml\page_control.xml" />
+		<file name="PAGE_SAFT" path="xml\page_saft.xml" />
+		<file name="PAGE_FILE" path="xml\page_file.xml" />
+		<file name="PAGE_PLAN" path="xml\page_plan.xml" />
+		<file name="PAGE_SHELL" path="xml\page_shell.xml" />
+		<file name="PAGE_ABOUT" path="xml\PAGE_ABOUT.xml" />
 	</LAYOUT>
 	<IMG>
 		<file name="IMG_LOGIN_BORDER" path="image\login_border.png" />
@@ -22,11 +32,21 @@
 		<file name="sysbtn_max_png" path="image\sysbtn_max.png" />
 		<file name="sysbtn_min_png" path="image\sysbtn_min.png" />
 		<file name="sysbtn_restore_png" path="image\sysbtn_restore.png" />
+		<file name="sysbtn_menu_png" path="image\sysbtn_menu.png" />
 	</IMG>
 	<ICON>
 		<file name="ICON_LOGO" path="image\soft.ico" />
 	</ICON>
 	<SMENU>
-		<file name="menu_template" path="xml\menu\menu_template.xml" />
+		<file name="MENU_OPEN" path="xml\menu\menu_open.xml" />
 	</SMENU>
+	<PNG>
+		<file name="home_icon_png" path="image\tab\home_icon.png" />
+		<file name="tab_icon_png" path="image\tab\tab_icon.png" />
+		<file name="tab_left_png" path="image\tab\tab_left.png" />
+		<file name="ID_BMP_MENU_SKIN" path="image\menu_skin.png" />
+		<file name="shadow_about_png" path="image\shadow_about.png" />
+		<file name="system_close_png" path="image\system_close.png" />
+		<file name="soft_png" path="image\soft.png" />
+	</PNG>
 </resource>

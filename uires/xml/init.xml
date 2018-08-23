@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <UIDEF>
 	<font face="微软雅黑" size="14" />
 	<string>
@@ -19,6 +19,15 @@
 		<imglist name="skin_sysbtn_max_png" src="IMG:sysbtn_max_png" states="3" />
 		<imglist name="skin_sysbtn_min_png" src="IMG:sysbtn_min_png" states="3" />
 		<imglist name="skin_sysbtn_restore_png" src="IMG:sysbtn_restore_png" states="3" />
+		<imglist name="skin_home_icon_png" src="PNG:home_icon_png" />
+		<imglist name="skin_tab_left_png" src="PNG:tab_left_png" states="3" />
+		<imglist name="skin_tab_icon_png" src="PNG:tab_icon_png" states="9" />
+		<imglist name="skin_sysbtn_menu_png" src="IMG:sysbtn_menu_png" states="3" />
+		<imglist name="_skin_menu_sep" src="PNG:ID_BMP_MENU_SEP" />
+		<imglist name="_skin_menu_skin" src="PNG:ID_BMP_MENU_SKIN" states="2" />
+		<imglist name="skin_shadow_about_png" src="PNG:shadow_about_png" />
+		<imglist name="skin_system_close_png" src="PNG:system_close_png" states="4" />
+		<imglist name="skin_soft_png" src="PNG:soft_png" />
 	</skin>
 	<style>
 		<class name="cls_edit" ncSkin="_skin.sys.border" margin-x="2" margin-y="2" />
