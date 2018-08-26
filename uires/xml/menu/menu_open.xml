@@ -1,8 +1,10 @@
-﻿<menu itemSkin="_skin_menu_skin" font="adding:-2" itemHeight="30" textMargin="8" colorTextSel="#e43d3d">
-    <item id="101">设置</item>
-    <item id="102">关于我们</item>
-    <!--item id="104" disable="1">打开碟片/DVD
-      <item id="1041">打开碟片</item>
-      <item id="1042">打开DVD</item>
-    </item-->
-</menu>
+﻿<?xml version="1.0"?>
+<menuRoot itemSkin="skin_menu_skin" sepSkin="skin_menu_sep" ncSkin="skin_common_shadow_png" 
+arrowSkin="skin_menu_arrow_png" itemHeight="32" minWidth="120" colorBorder="#EAEAEA" colorBkgnd="#ffffff">
+	<menuItem id="100" colorTextHover="#FF6B4D" colorTextDisable="#CCCCCC">设置</menuItem>
+  <sep margin="0,1,0,1"/>
+	<menuItem minWidth="120" colorTextHover="#FF6B4D" colorTextPush="#FF6B4D">帮助
+      <menuItem id="101" colorTextHover="#FF6B4D" disable="1">检查更新</menuItem>
+      <menuItem id="102" colorTextHover="#FF6B4D">关于我们</menuItem>
+    </menuItem>
+</menuRoot>

@@ -1,5 +1,6 @@
 #pragma once
 #include "helper/SMenu.h"
+#include "helper/SMenuEx.h"
 #include "AboutDialog.h"
 
 class GLDialog : public SHostWnd
@@ -19,6 +20,8 @@ public:
 
 	//DUI菜单响应函数
 	void OnCommand(UINT uNotifyCode, int nID, HWND wndCtl);
+
+	SMenuEx rc_menuex;
 
 protected:
 	//soui消息

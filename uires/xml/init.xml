@@ -12,7 +12,6 @@
 		<imglist name="btn_getpswback" src="img:BTN_GETPSWBACK" states="3" />
 		<imglist name="btn_register" src="img:BTN_REGISTER" states="3" />
 		<imglist name="btn_keyboard" src="img:BTN_KEYBOARD" states="3" />
-		<imglist name="img_avatars" src="img:img_avatars" states="8" />
 		<imglist name="img_login_bg" src="img:IMG_LOGIN_BG" />
 		<imglist name="skin_bkg_mask_png" src="IMG:bkg_mask_png" />
 		<imglist name="skin_sysbtn_close_png" src="IMG:sysbtn_close_png" states="3" />
@@ -23,11 +22,16 @@
 		<imglist name="skin_tab_left_png" src="PNG:tab_left_png" states="3" />
 		<imglist name="skin_tab_icon_png" src="PNG:tab_icon_png" states="9" />
 		<imglist name="skin_sysbtn_menu_png" src="IMG:sysbtn_menu_png" states="3" />
-		<imglist name="_skin_menu_sep" src="PNG:ID_BMP_MENU_SEP" />
-		<imglist name="_skin_menu_skin" src="PNG:ID_BMP_MENU_SKIN" states="2" />
+		<colorrect name="skin_menu_sep" normal="#EAEAEA" />
+		<colorrect name="skin_menu_skin" normal="#FFFFFF" hover="#FAFAFA" />
 		<imglist name="skin_shadow_about_png" src="PNG:shadow_about_png" />
 		<imglist name="skin_system_close_png" src="PNG:system_close_png" states="4" />
 		<imglist name="skin_soft_png" src="PNG:soft_png" />
+		<imglist name="skin_menu_arrow_png" src="PNG:menu_arrow_png" states="2" />
+		<imglist name="skin_avatars_jpg" src="JPG:avatars_jpg" />
+		<imgframe name="skin_common_shadow_png" src="PNG:common_shadow_png" states="1" margin="3, 3, 9, 9" />
+		<imglist name="skin_user_list_delete_png" src="PNG:user_list_delete_png" states="4" />
+		<imglist name="skin_Err_Info_png" src="PNG:Err_Info_png" />
 	</skin>
 	<style>
 		<class name="cls_edit" ncSkin="_skin.sys.border" margin-x="2" margin-y="2" />

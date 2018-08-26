@@ -19,20 +19,20 @@ int GLDialog::OnCreate(LPCREATESTRUCT lpCreateStruct)
 
 BOOL GLDialog::OnInitDialog(HWND hWnd, LPARAM lParam)
 {
+	rc_menuex.LoadMenu(_T("MENU_OPEN"));
+
 	m_bLayoutInited = TRUE;
 	return 0;
 }
 void GLDialog::OnBtnOpenMenu()
 {
 	CRect rc_menu;		// 用来存储成对出现的参数
-	SMenu menu_Setting;	// 窗口右上角设置按钮的弹出菜单
 	SWindow *pBtn = FindChildByName(L"btn_menu");	// 查找子窗口名称
 	if (pBtn)
 	{
 		pBtn->GetClientRect(&rc_menu);	// 获取子窗口Rect坐标
 		ClientToScreen(&rc_menu);		// 窗口坐标转换为屏幕坐标
-		menu_Setting.LoadMenuW(_T("MENU_OPEN"), _T("SMENU"));	// 读取菜单XML
-		menu_Setting.TrackPopupMenu(0, rc_menu.left, rc_menu.bottom, m_hWnd);	// 显示菜单
+		rc_menuex.TrackPopupMenu(0, rc_menu.left, rc_menu.bottom, m_hWnd);
 	}
 }
 void GLDialog::OnCommand(UINT uNotifyCode, int nID, HWND wndCtl)

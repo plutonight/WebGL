@@ -25,7 +25,6 @@
 		<file name="BTN_LOGIN_SETTING" path="image\login_setting.png" />
 		<file name="BTN_LOGIN_BUTTON" path="image\login_button.png" />
 		<file name="BTN_KEYBOARD" path="image\keyboard.png" />
-		<file name="IMG_AVATARS" path="image\avatars.png" />
 		<file name="IMG_LOGIN_BG" path="image\login_bg.png" />
 		<file name="bkg_mask_png" path="image\bkg_mask.png" />
 		<file name="sysbtn_close_png" path="image\sysbtn_close.png" />
@@ -37,16 +36,24 @@
 	<ICON>
 		<file name="ICON_LOGO" path="image\soft.ico" />
 	</ICON>
-	<SMENU>
+	<SMENUEX>
 		<file name="MENU_OPEN" path="xml\menu\menu_open.xml" />
-	</SMENU>
+	</SMENUEX>
 	<PNG>
 		<file name="home_icon_png" path="image\tab\home_icon.png" />
 		<file name="tab_icon_png" path="image\tab\tab_icon.png" />
 		<file name="tab_left_png" path="image\tab\tab_left.png" />
 		<file name="ID_BMP_MENU_SKIN" path="image\menu_skin.png" />
+		<file name="ID_BMP_MENU_SEP" path="image\menu_sep.png" />
 		<file name="shadow_about_png" path="image\shadow_about.png" />
 		<file name="system_close_png" path="image\system_close.png" />
 		<file name="soft_png" path="image\soft.png" />
+		<file name="common_shadow_png" path="image\common_shadow.png" />
+		<file name="menu_arrow_png" path="image\menu_arrow.png" />
+		<file name="user_list_delete_png" path="image\user_list_delete.png" />
+		<file name="Err_Info_png" path="image\Err_Info.png" />
 	</PNG>
+	<JPG>
+		<file name="avatars_jpg" path="image\avatars.jpg" />
+	</JPG>
 </resource>

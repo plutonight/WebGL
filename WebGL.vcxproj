@@ -76,6 +76,7 @@
     <IntDir>$(Configuration)\</IntDir>
     <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
     <LinkIncremental>false</LinkIncremental>
+    <ExtensionsToDeleteOnClean>*.log;$(ExtensionsToDeleteOnClean)</ExtensionsToDeleteOnClean>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IntDir>$(Configuration)64\</IntDir>
@@ -191,6 +192,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AboutDialog.cpp" />
+    <ClCompile Include="CMD.cpp" />
     <ClCompile Include="E:\soui\controls.extend\image3d\3dlib.cpp" />
     <ClCompile Include="E:\soui\controls.extend\image3d\3dmatrix.cpp" />
     <ClCompile Include="E:\soui\controls.extend\image3d\3dtransform.cpp" />
@@ -212,6 +214,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AboutDialog.h" />
+    <ClInclude Include="CMD.h" />
     <ClInclude Include="E:\soui\controls.extend\image3d\3dTransform.h" />
     <ClInclude Include="E:\soui\controls.extend\image3d\3dlib.h" />
     <ClInclude Include="E:\soui\controls.extend\image3d\3dmatrix.h" />
