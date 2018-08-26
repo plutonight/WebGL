@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<include width="436" height="345">
+<include width="436" height="375">
 	<!--login page-->
-	<caption pos="0,0,-0,-0" skin="img_login_border">
+	<caption pos="0,0,-0,-30" skin="img_login_border" cache="1">
 		<caption pos="0,0,-0,186" skin="img_login_bg">
 			<!--title bar-->
 			<icon pos="10,6" src="ICON_LOGO:16" />
@@ -12,15 +12,15 @@
 			<imgbtn name="btn_min" skin="_skin.sys.btn.minimize" pos="-75,0" animate="1" />
 			<imgbtn name="btn_setting" skin="btn_login_setting" pos="-110,0" animate="1" />
 		</caption>
-		<caption pos="0,186,-0,-0">
+		<caption pos="0,186,-0,-0" colorBkgnd="#ebf2f9ff">
 			<!--body-->
-			<caption pos="0,0,-0,-0" colorBkgnd="#ebf2f9ff">
+			<caption pos="0,0,-0,-0" show="1" display="0" name="login_bg">
 				<img pos="37,20" skin="skin_avatars_jpg" name="img_avatar" size="82,82" />
 				<comboview name="cbx_account" pos="136,20,330,48" dropDown="0" dropHeight="200" animateTime="0" class="cls_edit" curSel="0" id_text="3">
 					<liststyle class="cls_edit" colorBkgnd="#ffffff">
 						<template itemHeight="44" colorHover="#cccccc" colorSelected="#cccccc">
 							<img id="1" pos="1,2,@40,@40" skin="skin_avatars_jpg" />
-							<text id="2" pos="50,|-10">想象元素</text>
+							<text id="2" pos="50,|-10">模板</text>
 							<imgbtn id="3" pos="-24,|-8,-10,|7" skin="skin_user_list_delete_png" tip="删除账号信息" />
 						</template>
 					</liststyle>
@@ -36,12 +36,19 @@
 					<text colorText="#ffffffff" pos="0,0,-0,-0" offset="0.4,0">登  录</text>
 				</imgbtn>
 			</caption>
+			<caption pos="0,0,-0,-0" show="0" display="0" name="loading_login">
+				<imgbtn name="btn_login_cancel" pos="|0,|0,-0,-0" skin="btn_login_button" size="194,30" offset="-0.5,1.1">
+					<text colorText="#ffffffff" pos="0,0,-0,-0" offset="0.4,0">取  消</text>
+				</imgbtn>
+				<gifplayer pos="|-88,|-32" size="34, 34" skin="skin_loading_gif" />
+				<text pos="168,|0" font="face:微软雅黑,size:16" offset="0, -1.2">登录中，请稍后......</text>
+			</caption>
 		</caption>
 	</caption>
-	<window pos="0,26,-0,-0" skin="skin_bkg_mask_png" display="0" show="0" name="err_login">
+	<window pos="0,26,-0,-30" skin="skin_bkg_mask_png" display="0" show="0" name="err_login">
 		<window pos="0,20,-0,-0" font="face:微软雅黑,size:12">
 			<button name="btn_err_ok" pos="-110,-28,-20,-4">确定</button>
-			<img pos="40,24" size="40,40" skin="skin_Err_Info_png" />
+			<img pos="40,50" size="40,40" skin="skin_Err_Info_png" />
 			<text pos="88,24">你输入的用户名或密码不正确，原因可能是：</text>
 			<text pos="88,[4">1、用户名输入有误；</text>
 			<text pos="88,[4">2、忘记密码；</text>
@@ -50,5 +57,10 @@
 			<hr pos="10,[20,-10,[21" size="2,1" mode="horizontal" colorLine="#CCCCCC" />
 			<text pos="|0,[15" offset="-0.5,0">如果你的密码丢失或遗忘，请前往你的主机提供商处寻求帮助。</text>
 		</window>
+	</window>
+	<window pos="0,[0,-0,-0" colorBkgnd="#e1e3a2ff" show="0" display="0" name="err_net_login">
+		<img pos="15,|0,@16,@16" skin="skin_tips_warning_png" offset="0,-0.5" />
+		<text pos="[5,|0" offset="0, -0.5" font="face:微软雅黑,size:13">网络连接失败，请确认本机已联网或检测本机防火墙设置！</text>
+		<imgbtn pos="404,|0" size="12, 12" tip="" animate="1" skin="skin_tips_close_png" offset="0,-0.5" name="btn_ner_err" />
 	</window>
 </include>

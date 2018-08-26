@@ -52,8 +52,13 @@
 		<file name="menu_arrow_png" path="image\menu_arrow.png" />
 		<file name="user_list_delete_png" path="image\user_list_delete.png" />
 		<file name="Err_Info_png" path="image\Err_Info.png" />
+		<file name="tips_warning_png" path="image\tips_warning.png" />
+		<file name="tips_close_png" path="image\tips_close.png" />
 	</PNG>
 	<JPG>
 		<file name="avatars_jpg" path="image\avatars.jpg" />
 	</JPG>
+	<GIF>
+		<file name="loading_gif" path="image\loading.gif" />
+	</GIF>
 </resource>

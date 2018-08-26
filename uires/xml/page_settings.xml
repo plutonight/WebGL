@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
-<include width="436" height="345">
+<include width="436" height="375">
 	<!--login settings-->
-	<window name="set_form" pos="0,0,-0,-0" colorBkgnd="#008888" skin="img_login_bg">
+	<window name="set_form" pos="0,0,-0,-30" colorBkgnd="#008888" skin="img_login_bg">
 		<caption pos="0,0,-0,26">
 			<!-- <img skin="login_set_title" pos="10,7" /> -->
 			<imgbtn name="btn_close" skin="_skin.sys.btn.close" pos="-40,0" tip="close" animate="1" />
 			<imgbtn name="btn_min" skin="_skin.sys.btn.minimize" pos="-75,0" animate="1" />
 		</caption>
-		<window pos="0,26,-0,-0" skin="skin_bkg_mask_png">
-			<window pos="0,20,-0,-0">
+		<caption pos="0,26,-0,-0" skin="skin_bkg_mask_png">
+			<caption pos="0,20,-0,-0">
 				<text pos="15,10">网络设置</text>
 				<text pos="20,42">类型：</text>
 				<combobox name="net_cfg_type_cmb" pos="70,38,240,62" class="cls_edit" dropDown="1" dropHeight="200" dotted="0" curSel="0">
@@ -27,7 +27,7 @@
 				<button id="136" name="btn_test_net_set" pos="-262,132,-192,158">测试</button>
 				<button name="btn_setting_cancel" pos="-78,-30,-8,-4">取消</button>
 				<button name="btn_setting_ok" pos="-156,-30,-86,-4">确定</button>
-			</window>
-		</window>
+			</caption>
+		</caption>
 	</window>
 </include>

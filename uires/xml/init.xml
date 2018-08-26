@@ -32,6 +32,9 @@
 		<imgframe name="skin_common_shadow_png" src="PNG:common_shadow_png" states="1" margin="3, 3, 9, 9" />
 		<imglist name="skin_user_list_delete_png" src="PNG:user_list_delete_png" states="4" />
 		<imglist name="skin_Err_Info_png" src="PNG:Err_Info_png" />
+		<imglist name="skin_tips_warning_png" src="PNG:tips_warning_png" />
+		<imglist name="skin_tips_close_png" src="PNG:tips_close_png" states="2" />
+		<gif name="skin_loading_gif" src="GIF:loading_gif" />
 	</skin>
 	<style>
 		<class name="cls_edit" ncSkin="_skin.sys.border" margin-x="2" margin-y="2" />
