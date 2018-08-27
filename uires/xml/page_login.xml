@@ -2,7 +2,7 @@
 <include width="436" height="375">
 	<!--login page-->
 	<caption pos="0,0,-0,-30" skin="img_login_border" cache="1">
-		<caption pos="0,0,-0,186" skin="img_login_bg">
+		<caption pos="0,0,-0,176" skin="img_login_bg">
 			<!--title bar-->
 			<icon pos="10,6" src="ICON_LOGO:16" />
 			<text pos="[5,4" colorText="#ffffffff">@string/title</text>
@@ -12,11 +12,11 @@
 			<imgbtn name="btn_min" skin="_skin.sys.btn.minimize" pos="-75,0" animate="1" />
 			<imgbtn name="btn_setting" skin="btn_login_setting" pos="-110,0" animate="1" />
 		</caption>
-		<caption pos="0,186,-0,-0" colorBkgnd="#ebf2f9ff">
+		<caption pos="0,176,-0,-0" colorBkgnd="#ebf2f9ff">
 			<!--body-->
 			<caption pos="0,0,-0,-0" show="1" display="0" name="login_bg">
-				<img pos="37,20" skin="skin_avatars_jpg" name="img_avatar" size="82,82" />
-				<comboview name="cbx_account" pos="136,20,330,48" dropDown="0" dropHeight="200" animateTime="0" class="cls_edit" curSel="0" id_text="3">
+				<img pos="33,15" skin="skin_avatars_jpg" name="img_avatar" size="82, 82" />
+				<comboview name="cbx_ipadder" pos="136,5,330,33" dropDown="0" dropHeight="200" animateTime="0" class="cls_edit" curSel="0" id_text="3">
 					<liststyle class="cls_edit" colorBkgnd="#ffffff">
 						<template itemHeight="44" colorHover="#cccccc" colorSelected="#cccccc">
 							<img id="1" pos="1,2,@40,@40" skin="skin_avatars_jpg" />
@@ -24,20 +24,23 @@
 							<imgbtn id="3" pos="-24,|-8,-10,|7" skin="skin_user_list_delete_png" tip="删除账号信息" />
 						</template>
 					</liststyle>
-					<editstyle vcenter="1" colorText="#000000" align="left" colorBkgnd="#FFFFFF" cueText="输入帐号" autoSel="0" />
+					<editstyle vcenter="1" colorText="#000000" align="left" colorBkgnd="#FFFFFF" cueText="输入IP地址" autoSel="0" />
 				</comboview>
-				<window pos="136,50,330,78" class="cls_edit" colorBkgnd="#ffffff">
-					<edit pos="0,0,-1,-0" margin="0" password="1" mouseRelay="1" cueText="输入密码" name="edit_passwd" />
+				<window pos="136,[2,330,[33" class="cls_edit" colorBkgnd="#ffffff">
+					<edit pos="0,0,-22,-0" margin="0" mouseRelay="1" cueText="输入用户名" name="edit_account" />
 					<imgbtn pos="-22,2" skin="btn_keyboard" mouseRelay="1" />
 				</window>
-				<check pos="136,80" colorText="#b9b9b9">记住密码</check>
-				<check pos="254,80" colorText="#b9b9b9">自动登录</check>
-				<imgbtn name="btn_login" pos="|0,|0,-0,-0" skin="btn_login_button" size="194,30" offset="-0.42,1.1">
+				<window pos="136,[2,330,[33" class="cls_edit" colorBkgnd="#ffffff">
+					<edit pos="0,0,-22,-0" margin="0" password="1" mouseRelay="1" cueText="输入密码" name="edit_passwd" />
+					<imgbtn pos="-22,2" skin="btn_keyboard" mouseRelay="1" />
+				</window>
+				<check pos="136,[2" colorText="#b9b9b9">记住密码</check>
+				<imgbtn name="btn_login" pos="136,125" skin="btn_login_button" size="194,30">
 					<text colorText="#ffffffff" pos="0,0,-0,-0" offset="0.4,0">登  录</text>
 				</imgbtn>
 			</caption>
 			<caption pos="0,0,-0,-0" show="0" display="0" name="loading_login">
-				<imgbtn name="btn_login_cancel" pos="|0,|0,-0,-0" skin="btn_login_button" size="194,30" offset="-0.5,1.1">
+				<imgbtn name="btn_login_cancel" pos="136,125,-0,-0" skin="btn_login_button" size="194, 30">
 					<text colorText="#ffffffff" pos="0,0,-0,-0" offset="0.4,0">取  消</text>
 				</imgbtn>
 				<gifplayer pos="|-88,|-32" size="34, 34" skin="skin_loading_gif" />
