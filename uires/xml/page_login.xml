@@ -60,7 +60,7 @@
 	</window>
 	<window pos="0,[0,-0,-0" colorBkgnd="#e1e3a2ff" show="0" display="0" name="err_net_login">
 		<img pos="15,|0,@16,@16" skin="skin_tips_warning_png" offset="0,-0.5" />
-		<text pos="[5,|0" offset="0, -0.5" font="face:微软雅黑,size:13">网络连接失败，请确认本机已联网或检测本机防火墙设置！</text>
+		<text pos="[15,|0" offset="0, -0.5" font="face:微软雅黑,size:13">网络连接失败，请确认本机已联网或检测本机防火墙设置！</text>
 		<imgbtn pos="404,|0" size="12, 12" tip="" animate="1" skin="skin_tips_close_png" offset="0,-0.5" name="btn_ner_err" />
 	</window>
 </include>

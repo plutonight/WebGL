@@ -203,6 +203,7 @@
     <ClCompile Include="E:\soui\controls.extend\slistboxex.cpp" />
     <ClCompile Include="GLDialog.cpp" />
     <ClCompile Include="MainDlg.cpp" />
+    <ClCompile Include="ThreadObject.cpp" />
     <ClCompile Include="WebGL.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -229,6 +230,7 @@
     <ClInclude Include="MainDlg.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="ThreadObject.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="res\soui_res.rc2" />

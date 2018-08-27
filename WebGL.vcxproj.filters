@@ -65,6 +65,9 @@
     <ClCompile Include="E:\soui\controls.extend\gif\SGifPlayer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ThreadObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MainDlg.h">
@@ -107,6 +110,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="E:\soui\controls.extend\gif\SGifPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
